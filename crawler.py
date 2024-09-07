@@ -1,3 +1,4 @@
+# Importar librerias necesarias
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
