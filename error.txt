@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/home/user/Escritorio/CookieBD/COOKIEMAURICE3.py", line 59, in <module>
+    cookies, headers, meta_tags = extract_cookies_and_headers(url)
+  File "/home/user/Escritorio/CookieBD/COOKIEMAURICE3.py", line 28, in extract_cookies_and_headers
+    driver.get(url)
+  File "/home/user/miniforge3/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/user/miniforge3/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/user/miniforge3/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0,003
+  (Session info: chrome=129.0.6668.89)
+Stacktrace:
+#0 0x5939d3df48da <unknown>
+#1 0x5939d3ac2e50 <unknown>
+#2 0x5939d3aaae20 <unknown>
+#3 0x5939d3aaab0d <unknown>
+#4 0x5939d3aa8b11 <unknown>
+#5 0x5939d3aa931f <unknown>
+#6 0x5939d3ab8e3b <unknown>
+#7 0x5939d3acf204 <unknown>
+#8 0x5939d3ad474b <unknown>
+#9 0x5939d3aa9a2e <unknown>
+#10 0x5939d3acf059 <unknown>
+#11 0x5939d3b5588f <unknown>
+#12 0x5939d3b37233 <unknown>
+#13 0x5939d3b05093 <unknown>
+#14 0x5939d3b0609e <unknown>
+#15 0x5939d3dbbb3b <unknown>
+#16 0x5939d3dbfaf1 <unknown>
+#17 0x5939d3da7705 <unknown>
+#18 0x5939d3dc0662 <unknown>
+#19 0x5939d3d8c8df <unknown>
+#20 0x5939d3de36d8 <unknown>
+#21 0x5939d3de38a2 <unknown>
+#22 0x5939d3df36cc <unknown>
+#23 0x70ce9aa9ca94 <unknown>
+#24 0x70ce9ab29c3c <unknown>
